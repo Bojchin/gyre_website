@@ -1,0 +1,172 @@
+/* CSS Document */
+
+@charset "UTF-8";
+
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #800;
+	text-decoration: none;
+}
+
+a:active {
+	color: #800;
+	text-decoration: none;
+}
+
+/* Main Menu Strip */
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: calc(14px + 0.3vh);
+	text-transform: lowercase;
+	color: #800;
+	letter-spacing: 0.50mm;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
+
+/* BUTTON		*/
+.button {
+	color: #333;
+	clear: both;
+	display: block;
+	float: left;
+	font-size: 14%;
+	font-weight: normal;
+	height: 25px;
+	line-height: 31px;
+	width: auto;
+	outline: 0;
+	font-variant: normal;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a.button {
+	outline: 0;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+a:hover.button {
+	outline: 0;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 100%;
+	color: #800;
+}
+
+.button span {
+	display: block;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 10px;
+	padding-right: 0px;
+	margin-right: 0px;
+	color: #800;
+	outline: 0;
+}
+
+/* Immigration Types Menu		*/
+.v-menu {
+	border: 0;
+	width: auto;
+	clear: both;
+	font-size: calc(12px + 0.35vh);
+	outline: 0;
+	text-transform: none;
+	letter-spacing: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.v-menu,
+.v-menu li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	outline: 0;
+}
+
+ul.v-menu {
+	clear: both;
+	margin-top: 6px;
+	padding: 6px 5px;
+}
+
+.v-menu li a {
+	color: #DDD;
+	font-weight: normal;
+	display: block;
+	padding: 4px;
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+	padding-left: 15px;
+}
+
+.v-menu li a:hover {
+	color: #800;
+	outline: 0;
+	text-decoration: none;
+}
+
+/* Body Text */
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: calc(12px + 0.35vh);
+	color: #333;
+	text-align: justify;
+	padding: 20px;
+}
+
+body {
+	background-color: #CCC;
+}
+
+.formheader2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: none;
+}
+
+.language {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	font-size: 12px;
+	float: right;
+}
+
+/* Gyre Realty Style*/
+.othergyre {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	float: left;
+}
+
+.gyrefooter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	float: left;
+	margin-left: 5px;
+}
+
+.hhfooter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	float: right;
+	margin-right: 5px;
+}
