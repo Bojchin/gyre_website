@@ -14,6 +14,21 @@
 
 	<script>
 
+		for (let i = 0; i < 9; i++){
+			window.addEvent('domready', function () {
+			//-vertical
+
+			var mySlide = new Fx.Slide('v-menu');
+			mySlide.hide();
+			$('toggle').addEvent('click', function (e) {
+				e = new Event(e);
+				mySlide.toggle();
+				e.stop();
+			});
+
+		});
+		}
+/*
 		window.addEvent('domready', function () {
 			//-vertical
 
@@ -114,6 +129,7 @@
 			});
 
 		});
+	*/
 	</script>
 
 
