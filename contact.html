@@ -10,107 +10,20 @@
 	<script type="text/javascript" src="mootools.svn.js"></script>
 
 	<script>
+		for (let i = 0; i < 8; i++) {
+			window.addEvent('domready', function () {
+				//-vertical
 
-		window.addEvent('domready', function () {
-			//-vertical
+				var mySlide = new Fx.Slide('v-menu');
+				mySlide.hide();
+				$('toggle').addEvent('click', function (e) {
+					e = new Event(e);
+					mySlide.toggle();
+					e.stop();
+				});
 
-			var mySlide = new Fx.Slide('v-menu');
-			mySlide.hide();
-			$('toggle').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
 			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu2');
-			mySlide.hide();
-			$('toggle2').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu3');
-			mySlide.hide();
-			$('toggle3').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu4');
-			mySlide.hide();
-			$('toggle4').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu5');
-			mySlide.hide();
-			$('toggle5').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu6');
-			mySlide.hide();
-			$('toggle6').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu7');
-			mySlide.hide();
-			$('toggle7').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu8');
-			mySlide.hide();
-			$('toggle8').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
+		}
 	</script>
 
 	<script type="text/javascript">
@@ -139,39 +52,39 @@
 
 <body>
 	<table width="900" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center">
-			<tr>
-				<td width="25"><img src="images/topleft.jpg" width="25" height="25" align="left" /></td>
-				<td></td>
-				<td width="25"><img src="images/topright.jpg" width="25" height="25" align="right" /></td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<!--<a href="http://www.gyreimmigration.ca">-->
-				<td align="center"><a href="index.html"><img src="images/gyreimmlogo.png" width="400"
-							height="168" border="0" /></a></td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr bgcolor="#EEEEEE">
-				<td>&nbsp;</td>
-				<td class="menu">
-					<a href="index.html">home</a>
-					<span style="color: #FFF">|</span>
-					<a href="about.html">about</a>
-					<span style="color: #FFF">|</span>
-					<a href="immigrationcategories.html">immigration </a>
-					<span style="color: #FFF">|</span>
-					<a href="employerservices.html"> employers</a>
-					<span style="color: #FFF">|</span>
-					<a href="contact.html"  style="color: #800">contact</a>
-				</td>
-				<td>&nbsp;</td>
-			</tr>
+		<tr>
+			<td width="25"><img src="images/topleft.jpg" width="25" height="25" align="left" /></td>
+			<td></td>
+			<td width="25"><img src="images/topright.jpg" width="25" height="25" align="right" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<!--<a href="http://www.gyreimmigration.ca">-->
+			<td align="center"><a href="index.html"><img src="images/gyreimmlogo.png" width="400" height="168"
+						border="0" /></a></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr bgcolor="#EEEEEE">
+			<td>&nbsp;</td>
+			<td class="menu">
+				<a href="index.html">home</a>
+				<span style="color: #FFF">|</span>
+				<a href="about.html">about</a>
+				<span style="color: #FFF">|</span>
+				<a href="immigrationcategories.html">immigration </a>
+				<span style="color: #FFF">|</span>
+				<a href="employerservices.html"> employers</a>
+				<span style="color: #FFF">|</span>
+				<a href="contact.html" style="color: #800">contact</a>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
 
 		<tr>
 			<td>&nbsp;</td>
 			<td class="text" height="550" valign="top">
-				<p><span style="font-size: calc(16px + 0.35vh);">Contact Us</span><img src="images/contact.jpg" width="400"
-						height="300" align="right" style="padding-left:15px" /><br />
+				<p><span style="font-size: calc(16px + 0.35vh);">Contact Us</span><img src="images/contact.jpg"
+						width="400" height="300" align="right" style="padding-left:15px" /><br />
 					<br />
 					<strong>Canada Office</strong>
 				</p>
@@ -183,7 +96,7 @@
 					Mobile: +1 902 830 7182<br />
 					info@gyre.ca</p>
 
-				
+
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>

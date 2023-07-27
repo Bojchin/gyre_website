@@ -10,8 +10,8 @@
 	<script type="text/javascript" src="mootools.svn.js"></script>
 
 	<script>
-
-		window.addEvent('domready', function () {
+		for (let i = 0; i < 8; i++){
+			window.addEvent('domready', function () {
 			//-vertical
 
 			var mySlide = new Fx.Slide('v-menu');
@@ -21,96 +21,8 @@
 				mySlide.toggle();
 				e.stop();
 			});
-
 		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu2');
-			mySlide.hide();
-			$('toggle2').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu3');
-			mySlide.hide();
-			$('toggle3').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu4');
-			mySlide.hide();
-			$('toggle4').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu5');
-			mySlide.hide();
-			$('toggle5').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu6');
-			mySlide.hide();
-			$('toggle6').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu7');
-			mySlide.hide();
-			$('toggle7').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu8');
-			mySlide.hide();
-			$('toggle8').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
+		}
 	</script>
 
 	<script type="text/javascript">

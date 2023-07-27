@@ -11,106 +11,20 @@
 
 	<script>
 
-		window.addEvent('domready', function () {
-			//-vertical
+		for (let i = 0; i < 8; i++) {
+			window.addEvent('domready', function () {
+				//-vertical
 
-			var mySlide = new Fx.Slide('v-menu');
-			mySlide.hide();
-			$('toggle').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
+				var mySlide = new Fx.Slide('v-menu');
+				mySlide.hide();
+				$('toggle').addEvent('click', function (e) {
+					e = new Event(e);
+					mySlide.toggle();
+					e.stop();
+				});
+
 			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu2');
-			mySlide.hide();
-			$('toggle2').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu3');
-			mySlide.hide();
-			$('toggle3').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu4');
-			mySlide.hide();
-			$('toggle4').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu5');
-			mySlide.hide();
-			$('toggle5').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu6');
-			mySlide.hide();
-			$('toggle6').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu7');
-			mySlide.hide();
-			$('toggle7').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-
-		});
-		window.addEvent('domready', function () {
-			//-vertical
-
-			var mySlide = new Fx.Slide('v-menu8');
-			mySlide.hide();
-			$('toggle8').addEvent('click', function (e) {
-				e = new Event(e);
-				mySlide.toggle();
-				e.stop();
-			});
-
-		});
+		}
 	</script>
 
 
@@ -149,8 +63,8 @@
 		<tr>
 			<td>&nbsp;</td>
 			<!--<a href="http://www.gyreimmigration.ca">-->
-			<td align="center"><a href="index.html"><img src="images/gyreimmlogo.png" width="400"
-						height="168" border="0" /></a></td>
+			<td align="center"><a href="index.html"><img src="images/gyreimmlogo.png" width="400" height="168"
+						border="0" /></a></td>
 			<td>&nbsp;</td>
 		</tr>
 		<tr bgcolor="#EEEEEE">
